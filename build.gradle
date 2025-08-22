@@ -1,0 +1,25 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    repositories {
+        google() // Required for Android Gradle Plugin
+        mavenCentral() // Ensure that you can fetch dependencies from Maven Central
+        maven { url 'https://jitpack.io' }
+    }
+    dependencies {
+        // Ensure you are using the correct version of the Android Gradle Plugin
+        classpath 'com.android.tools.build:gradle:8.1.0' // Update to the desired AGP version
+    }
+}
+
+allprojects {
+    repositories {
+        google() // Required for Android dependencies
+        mavenCentral() // Ensure that you can fetch dependencies from Maven Central
+        maven { url 'https://jitpack.io' }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

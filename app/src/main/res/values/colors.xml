@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg">#b300695c</color>
+
+    <color name="colorPrimary">#223743</color>
+    <color name="colorPrimaryDark">#223743</color>
+    <color name="colorAccent">#ffffff</color>
+    <color name="cardColor_1">#DC00BCD4</color>
+    <color name="cardColor_2">#9C3C0C</color>
+    <color name="cardColor">#E6570F</color>
+
+    <color name="ToolbarColor">#FFC107</color>
+    <color name="red">#D81B60</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="cardcolorTransparent">#DA403B74</color>
+
+    <!--    Extra Color-->
+
+    <color name="gray">#b4b4b4</color>
+    <color name="text_color">#a6a6a6</color>
+    <color name="original_black">#000000</color>
+    <color name="black_transfer">#f5212121</color>
+    <color name="grey_3">#f7f7f7</color>
+    <color name="grey_5">#f2f2f2</color>
+    <color name="grey_10">#e6e6e6</color>
+    <color name="grey_20">#cccccc</color>
+    <color name="grey_40">#999999</color>
+    <color name="grey_60">#666666</color>
+    <color name="grey_80">#37474F</color>
+    <color name="grey_90">#263238</color>
+    <color name="green">#4CAF50</color>
+
+</resources>

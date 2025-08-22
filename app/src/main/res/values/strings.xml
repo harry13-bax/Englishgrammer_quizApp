@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">English Grammar Quiz</string>
+    <string name="AppDescription">"Test and enhance your English grammar skills with fun, interactive quizzes!</string>
+
+    <!--DRAWER -->
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!--ADMOB -->
+
+    <string name="Admob_publisher_id">pub-4562034909834434</string>
+    <string name="banner_ads">ca-app-pub-4562034909834434/9212353683</string>
+    <string name="intrestial_ads">ca-app-pub-4562034909834434/3165820088</string>
+    <string name="ApppublisherID">ca-app-pub-4562034909834434~2818335726</string>
+
+    <!--GDPR -->
+
+    <string name="user_within_eea_msg">Within the EEA, Your consent is: </string>
+    <string name="user_not_within_eea_msg">Not in EEA,Enjoy.</string>
+
+    <!--STORE LINK -->
+
+    <string name="mystore">https://play.google.com/store/apps/developer?id=Sagar+Basnet</string>  <!--xxxxx=  Devloper Name -->
+    <string name="privacyPolicyLink">https://eventforyoux.blogspot.com/p/privacy-policy-for-ultimate-english-quiz.html</string><!--Privacy link -->
+    <string name="Email">theultimatezorox@gmail.com</string><!--Email -->
+
+    <!-- Others -->
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="MsgExit">Press again to exit</string>
+    <string name="nav_category">Category</string>
+    <string name="nav_random">Random Phrases</string>
+    <string name="nav_translator">Online Translator</string>
+    <string name="nav_fav">Favorites</string>
+    <string name="nav_settings">Settings</string>
+    <string name="QestionsDone">Hurrah, You finished all the questions</string>
+    <string name="summary">View Summary</string>
+    <string name="nav_ratings">Rate this app</string>
+    <string name="ChooseCorrectAnswer">Select The Correct Answer</string>
+
+    <!--NAV DRAWER ITEMS -->
+
+    <string name="home">Home</string>
+    <string name="contact">Contact Us</string>
+    <string name="share">Share</string>
+    <string name="about">Share</string>
+    <string name="more">More Apps</string>
+
+
+
+</resources>

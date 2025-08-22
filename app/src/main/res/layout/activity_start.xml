@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark"
+    android:theme="@style/AppTheme.NoActionBar"
+    tools:context="com.ultimate.englishgrammarquiz.StartActivity">
+
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logodd"
+        />
+
+
+    <Button
+        android:id="@+id/buttonStart"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn"
+        android:text="Start"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:fontFamily="@font/en_font"
+        android:layout_marginEnd="50dp"
+        android:layout_marginStart="50dp"
+        />
+
+    <Button
+        android:id="@+id/buttonSettings"
+
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn"
+        android:text="Settings"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:fontFamily="@font/en_font"
+        android:layout_marginEnd="50dp"
+        android:layout_marginStart="50dp"
+        />
+
+    <Button
+        android:id="@+id/buttonShare"
+
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn"
+        android:text="Share"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:fontFamily="@font/en_font"
+        android:layout_marginEnd="50dp"
+        android:layout_marginStart="50dp"
+        />
+
+    <Button
+        android:id="@+id/buttonMore"
+
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn"
+        android:text="More"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:fontFamily="@font/en_font"
+        android:layout_marginEnd="50dp"
+        android:layout_marginStart="50dp"
+        />
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ads"
+        >
+
+    </com.google.android.gms.ads.AdView>
+
+</LinearLayout>
+
+
+
+</LinearLayout>
